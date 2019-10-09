@@ -185,7 +185,7 @@ header {
   display: none; }
 
 .footer__wrap {
-  position: relative;
+  position: absolute;
   bottom: 0; }
 
 .footer__list {
@@ -453,7 +453,7 @@ header {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 800px;
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
   -webkit-transition: .9s;
