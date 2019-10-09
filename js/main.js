@@ -24,25 +24,38 @@
 
     $(function(){
         let filter = $("[data-menu]");
-        console.log(filter);
+        
 
         filter.on("click", function(event){
             event.preventDefault();
 
             let menu = $(this).data('menu');
-            console.log(menu);
+            
 
             $("[data-section]").each(function(){
                 let workSection = $(this).data('section');
-                console.log(workSection);
+                
 
                 if (workSection != menu) {
                     $(this).addClass('hide');
-                    console.log(workSection);
+                    
                 } else {
                     $(this).removeClass('hide');
                 }
             })
         })
 
+        let check = document.getElementById('check-menu');
+
+        $('.menu__link').on('click', function() {
+            check.checked=false;
+            firstItem.classList.remove("visually-hidden");
+            secondItem.classList.remove("second--active");
+            thirdItem.classList.remove("third--active");
+            fourthItem.classList.remove("visually-hidden");
+            i=0;
+        })
+
     })
+
+    
