@@ -634,7 +634,9 @@ header {
             justify-content: flex-start; }
   .publich__text {
     margin-top: 60px;
-    margin-left: 60px; } }
+    margin-left: 60px; }
+  .main__contact {
+    height: 100vh; } }
 
 @media (min-width: 800px) {
   .contact__map {
