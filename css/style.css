@@ -76,6 +76,10 @@ header {
   position: relative;
   z-index: 96; }
 
+.header__phone a {
+  text-decoration: none;
+  color: #ffffff; }
+
 .menu__list {
   visibility: hidden;
   margin: 0;
@@ -580,7 +584,7 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-left: 60px;
+  margin-left: 20px;
   margin-top: 30px; }
 
 .publich__item {
@@ -636,7 +640,11 @@ header {
     margin-top: 60px;
     margin-left: 60px; }
   .main__contact {
-    height: 100vh; } }
+    height: 100vh; }
+  .publich__info {
+    margin-left: 60px; }
+  .publich__list {
+    margin-left: 60px; } }
 
 @media (min-width: 800px) {
   .contact__map {
